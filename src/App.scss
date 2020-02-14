@@ -1,13 +1,3 @@
-.globalFooter {
-  min-width: 1050px;
-    background-image: url(/assets/primary/images/common_img_border.png);
-    padding-bottom: 4px;
-    background-size: auto 4px;
-    background-color: #eee;
-    background-repeat: repeat-x;
-    background-position: 50% 100%;
-}
-
 html {
   font-size: 62.5%;
   -webkit-font-smoothing: antialiased;
@@ -21,78 +11,7 @@ body {
     font-size: 1.6em;
 }
 
-.footerOfficeInfo {
-  display: inline-block;
-
-  .footerOfficeInfo__name {
-    font-size: 2.4rem;
-    font-weight: bold;
-      font-family: "UD Shin Go DemiBold", -apple-system, "Lucida Grande", "Helvetica Neue", "メイリオ", meiryo, "Hiragino Kaku Gothic ProN", sans-serif;
-      
-  }
-
-  .footerOfficeInfo__address {
-    margin-top: 15px;
-    font-size: 1.4rem;
-    margin-top: 15px;
-    line-height: 1.8;
-    margin-bottom: 0;
-  }
-
-  .footerOfficeInfo__definitionList {
-    margin: 0;
-    font-size: 1.4rem;
-    line-height: 1.8;
-  }
-
-  .footerOfficeInfo__term {
-    display: inline-block;
-  }
-
-  .footerOfficeInfo__description {
-    display: inline-block;
-    margin: 0;
-  }
-}
-
-.footerLink {
-  display: inline-flex;
-  flex-wrap: wrap;
-  .footerLink__item {
-    font-weight: bold;
-      font-family: "UD Shin Go DemiBold", -apple-system, "Lucida Grande", "Helvetica Neue", "メイリオ", meiryo, "Hiragino Kaku Gothic ProN", sans-serif;
-      border: 2px solid #ebebeb;
-      padding: 1.2rem 2.4rem 1.2rem 1rem;
-      display: flex;
-      align-items: center;
-      width: 100%;
-      border-color: #c7c7c7;
-      width: 50%;
-      background-color: #fff;
-  }
-}
-
-
-.footerUtilityList {
-  display: inline-block;
-    letter-spacing: normal;
-    line-height: 1;
-    border-right: 1px solid #d7d7d7;
-    padding: 0 14px;
-    font-weight: bold;
-    font-family: "UD Shin Go DemiBold", -apple-system, "Lucida Grande", "Helvetica Neue", "メイリオ", meiryo, "Hiragino Kaku Gothic ProN", sans-serif;
-
-    .footerUtilityList__item {
-      display: inline-block;
-    }
-}
-
-.footerCopyright {
-  padding: 30px 0;
-  font-size: 1.3rem;
-  background-color: #000;
-  color: #fff;
-  text-align: center;
-  line-height: 1;
-  margin: 0;
+a[href] {
+  text-decoration: underline;
+  color: #0029a6;
 }
